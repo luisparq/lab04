@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
                     ) {
                         MovieCard()
                         MovieCheckbox()
+                        MovieSlider()
                     }
                 }
             }
