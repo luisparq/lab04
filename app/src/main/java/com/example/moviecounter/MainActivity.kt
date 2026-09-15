@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MovieCounterTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    MovieCard(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
