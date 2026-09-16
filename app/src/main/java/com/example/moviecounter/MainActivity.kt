@@ -21,13 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MovieCounterTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Column(
+                    MovieCounter(
                         modifier = Modifier.padding(innerPadding)
-                    ) {
-                        MovieCard()
-                        MovieCheckbox()
-                        MovieSlider()
-                    }
+                    )
                 }
             }
         }
